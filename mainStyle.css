@@ -1,0 +1,91 @@
+body {
+	background: black;
+}
+#startCanvas { 
+	display: block;
+	margin: 0
+	auto;
+	background-image: url('mainScreenBg.jpg');
+}
+#endlessCanvas {
+	display: none;
+	margin: 0
+	auto;
+}
+#endlessButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 9px;
+	left: 10%;
+	width: 150px;
+}
+#twoPlayerButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 79px;
+	left: 10%;
+	width: 150px;
+}
+#survivalButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 148px;
+	left: 10%;
+	width: 150px;
+}
+#singlePlayerEasyButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 217px;
+	left: 10%;
+	width: 150px;	
+}
+#singlePlayerHardButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 286px;
+	left: 10%;
+	width: 150px;	
+}
+#twoPlayerInvisibleButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 355px;
+	left: 10%;
+	width: 150px;	
+}
+#fourPlayerEliminiationButton {
+	display: block;
+	margin: 0
+	auto;
+	position: absolute;
+	height:  50px;
+	top: 424px;
+	left: 10%;
+	width: 150px;
+}
+div{
+	display: block;
+	margin: 0
+	auto;
+	text-align: center;
+	color: white;
+}

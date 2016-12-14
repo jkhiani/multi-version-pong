@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pong Tiles</title>
+	<link href="mainStyle.css" rel="stylesheet">
+</head>
+
+<body>
+	<canvas id = "startCanvas" width = "720" height = "480"></canvas>
+	<canvas id = "endlessCanvas" width = "720" height = "480"></canvas>
+
+	<script src = "endlessImpossible.js"></script>
+	<script src = "twoPlayer.js"></script>
+	<script src = "survival.js"></script>
+	<script src = "singlePlayerEasy.js"></script>
+	<script src = "singlePlayerHard.js"></script>
+	<script src = "twoPlayerInvisible.js"></script>
+	<script src = "fourPlayerElimination.js"></script>
+
+	<button id = "endlessButton" type = "button" onclick="endlessInstructions()">Practice</button>
+	<button id = "twoPlayerButton" type = "button" onclick="twoPlayerInstructions()">2-Player</button>
+	<button id = "survivalButton" type = "button" onclick="survivalInstructions()">Survival</button> 
+	<button id = "singlePlayerEasyButton" type = "button" onclick="singlePlayerEasyInstructions()">1-Player Easy</button>
+	<button id = "singlePlayerHardButton" type = "button" onclick="singlePlayerHardInstructions()">1-Player Hard</button>
+	<button id = "twoPlayerInvisibleButton" type = "button" onclick="twoPlayerInvisibleInstructions()">2-Player Invisiball</button>
+	<button id = "fourPlayerEliminiationButton" type = "button" onclick="fourPlayerEliminationInstructions()">4-Player Elimination</button>
+
+	<div>Press 'ESC' to change modes</div>
+
+</body>
+</html>
+
